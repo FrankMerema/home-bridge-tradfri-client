@@ -1,0 +1,15 @@
+{
+  "name": "home-bridge-tradfri-client",
+  "version": "0.0.1",
+  "description": "Home Bridge Tradfri client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "some"
+  },
+  "author": "Frank Merema",
+  "license": "MIT"
+}

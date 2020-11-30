@@ -77,7 +77,7 @@ accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-alcalzone-shared@^2.0.0:
+alcalzone-shared@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/alcalzone-shared/-/alcalzone-shared-2.3.0.tgz#3cd2896dd13078b933c8dcfdf89f2ee9a16efe72"
   integrity sha512-wBVqPJMOb/vQ9ZeVpwGL19LhfOaLnZlDFHk7ZgFz2Q2c7kYHNVKJhLQBMHhkAQ9P7zQ8Fx5IWEySXHGixcAIkw==
@@ -235,12 +235,12 @@ debug@=3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
+debug@^4.1.1, debug@^4.2.0:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
-    ms "^2.1.1"
+    ms "2.1.2"
 
 decompress-response@^4.2.0:
   version "4.2.1"
@@ -500,7 +500,7 @@ make-error@^1.1.1:
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.5.tgz#efe4e81f6db28cadd605c70f29c831b58ef776c8"
   integrity sha512-c3sIjNUow0+8swNwVpqoH4YCShKNFkMaw6oH1mNS2haDZQqkeZFlHS3dhoeEbKKmJB4vXpJucU6oH75aDYeE9g==
 
-mdns-server@^1.0.8:
+mdns-server@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/mdns-server/-/mdns-server-1.0.9.tgz#17beca5412037f5348199c21d0d5b8aaecfbe6ea"
   integrity sha512-b1F00LHqXL47Y9QTOtCJMnRIpZ7tmitY/FmckQq7P+2UY84MThDt4gCTg86EF6DV+Wl/QNdu07XYTKo0JYDGdw==
@@ -566,10 +566,15 @@ ms@2.0.0:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
-ms@2.1.1, ms@^2.1.1:
+ms@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 nan@2.14.x:
   version "2.14.1"
@@ -602,7 +607,7 @@ node-aead-crypto@^2.0.0:
     nan "2.14.x"
     prebuild-install "^5.2.1"
 
-node-coap-client@^1.0.4:
+node-coap-client@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/node-coap-client/-/node-coap-client-1.0.8.tgz#22fd613d5d56196e8188076bf308125bce24aa07"
   integrity sha512-ADki3zyiITRkKVKKa33OsE6Kkr8lMRdURvNgz+ozAuBFPY867BAq8AAsKL5MqlIaFMfW3b2Dq27gaDiRFH4T6w==
@@ -620,15 +625,15 @@ node-dtls-client@^0.6.0:
   optionalDependencies:
     node-aead-crypto "^2.0.0"
 
-node-tradfri-client@2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/node-tradfri-client/-/node-tradfri-client-2.1.6.tgz#7286e36b7884217b09de787953e0a68449f37462"
-  integrity sha512-nAMkc3MUuVY6tNklr/R0/s/sIzKIsM0e9szUPnnCpxK2z203pP34AaQ+NlRiBlvN0LhNntLZjE3wP5/EPfEG1A==
+node-tradfri-client@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/node-tradfri-client/-/node-tradfri-client-2.1.8.tgz#32c24241d58116ff2601a1bfe0dda3b21a6cede9"
+  integrity sha512-wgb1ETkH4bPViWLCstpuSiJfl/894e0PPQYYMVYnVjSYOcK80DkBpL/+V9tzflQzEWdZ35WSQF3GdFN7mzGAqg==
   dependencies:
-    alcalzone-shared "^2.0.0"
-    debug "^4.1.1"
-    mdns-server "^1.0.8"
-    node-coap-client "^1.0.4"
+    alcalzone-shared "^2.3.0"
+    debug "^4.2.0"
+    mdns-server "^1.0.9"
+    node-coap-client "^1.0.8"
     reflect-metadata "^0.1.12"
 
 noop-logger@^0.1.1:
